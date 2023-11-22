@@ -1,0 +1,24 @@
+Contador de vocales:
+Implementa una función que muestre las vocales en una cadena de texto.
+
+
+Calculadora de potencia:
+Crea una función que tome dos números como argumentos y devuelva el resultado de elevar el primero al segundo.
+
+
+Verificación de par:
+Desarrolla una función que determine si un número dado es par o impar.
+
+
+Calcular promedio:
+Crea una función que calcule el promedio de tres de números.
+
+
+Convertir a mayúsculas:
+Implementa una función que convierta una cadena de texto a mayúsculas.
+
+Comprobar año bisiesto:
+Escribe una función que determine si un año dado es bisiesto.
+
+Calcular distancia entre dos puntos:
+Desarrolla una función que calcule la distancia entre dos puntos en un plano cartesiano.
