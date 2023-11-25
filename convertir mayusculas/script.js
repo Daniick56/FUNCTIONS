@@ -1,11 +1,11 @@
-function upperCase(cadena) {
-    if (cadena !== null) {
-        let conversion = cadena.toUpperCase();
+function convertToUpperCase(inputString) {
+    if (inputString !== null) {
+        let conversion = inputString.toUpperCase();
         console.log(conversion);
     } else {
-        console.log("Entrada de usuario cancelada.");
+        console.log("User input canceled.");
     }
 }
 
-let text = prompt("Ingrese una cadena de texto");
-upperCase(text);
+let text = prompt("Enter a text string");
+convertToUpperCase(text);

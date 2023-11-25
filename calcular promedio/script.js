@@ -1,10 +1,10 @@
-function promedio(num1, num2, num3) {
-let result = (num1 + num2 + num3) / 3;
-console.log(`El promedio de los tres números es ${result}`);
+function calculateAverage(num1, num2, num3) {
+    let result = (num1 + num2 + num3) / 3;
+    console.log(`The average of the three numbers is ${result}`);
 }
 
-let numero1 = parseFloat(prompt("Ingrese el primer número"));
-let numero2 = parseFloat(prompt("Ingrese el segundo número"));
-let numero3 = parseFloat(prompt("Ingrese el tercer número"));
+let number1 = parseFloat(prompt("Enter the first number"));
+let number2 = parseFloat(prompt("Enter the second number"));
+let number3 = parseFloat(prompt("Enter the third number"));
 
-promedio(numero1, numero2, numero3);
+calculateAverage(number1, number2, number3);

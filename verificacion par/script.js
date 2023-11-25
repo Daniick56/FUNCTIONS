@@ -1,10 +1,10 @@
-function parOImpar(number) {
-    if (number %2 ===0 ) {
-        console.log("El número es par.");    
-    }else {
-        console.log("El número no es par.");
+function evenOrOdd(number) {
+    if (number % 2 === 0) {
+        console.log("The number is even.");
+    } else {
+        console.log("The number is not even.");
     }
 }
 
-let numero = parseInt(prompt("Ingrese un número para determinar si es par o impar."));
-parOImpar(numero);
+let number = parseInt(prompt("Enter a number to determine if it's even or odd."));
+evenOrOdd(number);
